@@ -1,0 +1,96 @@
+                          /* le corp de la page*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+                       /*<!-----la tête de la page IIPEA------>*/
+.tête{
+    padding: 10px;
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.pem{
+    background-color: darkslateblue;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.anonce{ 
+    text-align: center;
+    color:black;
+
+}
+
+samp{
+    color: gold;
+}
+
+
+/*<!-----le corp de l'inscription ( les informations à remplire ) pour avoir accère à l'application My IIPEA ------>*/
+
+.IIPEA{
+    text-align: start;
+    
+    margin: 20px;
+
+}
+.IIPEA-SCT{
+    text-align: start;
+    
+    /*margin: 20px;*/
+
+}
+
+
+button {
+    text-align: center;
+    background-color: rgb(74, 50, 226);
+    color: gold;
+}
+
+.hov a :hover {
+    background-color: gold;
+    color: rgb(74, 50, 226);
+}
+
+.select{
+    background-color: darkslateblue; color: white;
+}
+
+/*       je fais une entrer dans le footer pour ce ce qui von me suivre après l'aisser un commentaire merci            */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer nav ul li {
+    text-align: center;
+    display:inline;
+    margin: 5px;
+    padding: 15px;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: white;
+    color: black;
+}
+
+.foo{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+}
