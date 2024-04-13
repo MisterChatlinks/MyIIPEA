@@ -1,0 +1,38 @@
+/****************************************************************
+* Reinitialise tout les padding et margin de tous les element a 0
+*****************************************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* empeche l'utilisateur de scroller hors de la page */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+ 
+    overflow-x:hidden ;
+    overflow-y:scroll;
+                 /* permet l'utilisateur de scroller vers le bas de la page */
+
+}
+
+.main-container{
+    width: 100%;
+    min-height: 60vh;
+    border: red solid;
+
+    background: url(../Img\ library/background.jpg);
+    background-size: cover; /*largeur hauteur*/
+    background-position: relative;
+    background-repeat: no-repeat; /*empeche les effet mossaique*/
+}
