@@ -1,11 +1,67 @@
 
-
-.connect{
-    width: 40vh;
-    height: auto;
-    padding: 20px auto 30px auto;
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: aqua;
+.connect {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.connect h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3b5998;
+}
+
+.connect input[type="email"],
+.connect input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.connect input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.connect label {
+    font-size: 14px;
+    color: #333;
+}
+
+.connect a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #3b5998;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.connect button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.connect button:hover {
+    background-color: #2d4373;
 }
