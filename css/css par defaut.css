@@ -12,15 +12,11 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-
-    
 }
 
 .container{
     width: 100%;
     min-height: 100%;
- 
-    overflow-x:hidden ;
     overflow-y:scroll;
                  /* permet l'utilisateur de scroller vers le bas de la page */
 
