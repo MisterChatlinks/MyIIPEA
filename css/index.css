@@ -1,34 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+
+    background: url(../Img\ library/background.jpg);
+    background-size: 100vw 100vh; /*largeur hauteur*/
+    background-position: relative;
+    background-repeat: no-repeat; /*empeche les effet mossaique*/
 }
 
 
 .connect {
-    width: 40vw;
+    width: 35vw;
     height: auto;
     border: solid #000000;
-    background-color: #fff;
 
-    padding: 50px auto;
-    margin:  20vh auto; /*positionne le form 50px en dessous du haut de l'ecran et le centre au millieu de l'ecran*/
+    background: #ccc;
+    opacity: 0.9;
+
+    padding: 15px;
+    margin: auto auto; /*positionne le form 50px en dessous du haut de l'ecran et le centre au millieu de l'ecran*/
    
+ 
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(155, 144, 144, 0.514);
 }
 
 .connect fieldset {
-    width: 80%;
+
+    width: 80%; /* 80 % du form*/
 
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 
-    background-color: #fff;
+    padding: 20px;
 
-    padding: 20px auto;
-    margin: 50px auto ; /*positionne le form 50px en dessous du haut de l'ecran et le centre au millieu de l'ecran*/
+    margin: 20px auto ; /*positionne le form 50px en dessous du haut de l'ecran et le centre au millieu de l'ecran*/
 
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(155, 144, 144, 0.514);
@@ -41,46 +48,55 @@ body {
     color: #3b5998;
 }
 
-
-/*selecteur css un peu plus specifique*/
-.connect input[type="email"],input[type="password"],input[type="submit"] {
-    width: 80%;
-    padding: 10px;
-    
-
-    border: 2px solid #ccc;
+.connect label{
+    border: 3px solid blue;
     border-radius: 50px; /* contour arrondi des input*/
     box-sizing: border-box;
 }
-.connect input[type="email"]{
-   margin: 0 auto;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-.connect input[type="password"]{
-    margin: 0 auto;
-   margin-bottom: 10px;
-   
 
+/*selecteur css un peu plus specifique*/
+.connect input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: auto auto;
+    margin-top: 10px;
+    border: 3px solid blue;
+    border-radius: 50px; /* contour arrondi des input*/
+    box-sizing: border-box;
+    
 }
+
+.connect input[type="email"],input[type="password"]{
+   width: 70%;
+   border: none;
+   padding: 10px; 
+   margin: auto auto;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
 .connect input[type="checkbox"] {
     margin-right: 5px;
     vertical-align: middle;
 }
 
-.connect label:has(> input[type="checkbox"]) {
+/* le div qui a ( :has() ) comme enfant direct ou 1er enafnt pour faire simple ( > ) un input avec le type checkbox */
+.connect div:has(> input[type="checkbox"]) {
+    width: fit-content;
 
-    width: 100%;
- /*   border: 2px solid #2d4373 ; */
 }
 
 .connect label {
     width: 100%;
     display: block;
+
+    color: #333;
+    font-size: 14px;
+    
     text-align: center;
     margin-bottom: 5px;
-    font-size: 14px;
-    color: #333;
+    background: white;
+    padding: auto auto;
 }
 
 .connect a:not(p a) {
@@ -98,6 +114,7 @@ body {
    padding: 10px;
    border-radius: 5px;
    margin-top: 20px;
+   margin-bottom: 20px;
 }
 
 .connect p:has(> a) a:hover {
