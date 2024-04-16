@@ -13,7 +13,7 @@ body {
     padding: 50px auto;
     margin:  20vh auto; /*positionne le form 50px en dessous du haut de l'ecran et le centre au millieu de l'ecran*/
    
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(155, 144, 144, 0.514);
 }
 
@@ -46,18 +46,21 @@ body {
 .connect input[type="email"],input[type="password"],input[type="submit"] {
     width: 80%;
     padding: 10px;
+    
 
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 50px; /* contour arrondi des input*/
     box-sizing: border-box;
 }
 .connect input[type="email"]{
    margin: 0 auto;
    margin-top: 10px;
+   margin-bottom: 10px;
 }
 .connect input[type="password"]{
     margin: 0 auto;
    margin-bottom: 10px;
+   
 
 }
 .connect input[type="checkbox"] {
