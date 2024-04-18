@@ -10,13 +10,14 @@
 body{
     /* empeche l'utilisateur de scroller hors de la page */
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container{
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     overflow-y:scroll;
                  /* permet l'utilisateur de scroller vers le bas de la page */
 
@@ -26,6 +27,4 @@ body{
     width: 100%;
     min-height: 60vh;
     border: red solid;
-
-    
 }
