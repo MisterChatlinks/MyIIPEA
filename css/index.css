@@ -3,9 +3,9 @@
 body{
     background: url(../Img\ library/background.jpg);
 
-    background-size: 100vw 100vw;
+    background-size:  cover;
     background-repeat: no-repeat;
-    background-position: relative;
+    background-position: center;
 }
 
 body section{
