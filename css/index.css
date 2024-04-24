@@ -2,7 +2,6 @@
 
 body{
     background: url(../Img\ library/background.jpg);
-
     background-size:  cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,7 +46,7 @@ fieldset{
     border-radius: 20px 20px; 
 
     opacity: 0.9;
-    background: rgb(1, 1, 65);  /** couleur a l'interieur du formulaire **/
+    background: rgb(19, 19, 56);  /** couleur a l'interieur du formulaire **/
 }
 
 form label{
